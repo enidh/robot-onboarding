@@ -12,33 +12,33 @@ Onboarding docs for the robotics club
 
 * Get git at https://git-scm.com/download/
     * install git with default options EXCEPT:
-        * when you reach `Choosing the default editor used by git` change it to 
+    * when you reach `Choosing the default editor used by git` change it to 
 an editor of your choice (if you're at all unsure, pick `Use Visual Stodio Code as 
 Git's default editor`)
 * hit windows key+R, type `cmd` and hit Enter
-    *paste this into the command line, replacing with your name, and hit `Enter`:
-```
-git config --global user.name "Joana Santos"
-```
-    *paste this into the command line, replacing with your email, and hit `Enter`:
-```
-git config --global user.email "joanasantos@mail.com"
-```
-    *close the command line
+    * paste this into the command line, replacing with your name, and hit `Enter`:
+        ```
+        git config --global user.name "Joana Santos"
+        ```
+    * paste this into the command line, replacing with your email, and hit `Enter`:
+        ```
+        git config --global user.email "joanasantos@mail.com"
+        ```
+    * close the command line
 
 * Get pyhton 3.9 at https://www.python.org/ftp/python/3.9.0/python-3.9.0-amd64.exe
 **when starting the installation be sure to check the box `Add Python to PATH`, keep
 defaults for everything else
 
 * hit windows key+R, type `cmd` and hit Enter
-**paste this into the command line:
-```
-code --install-extension vsciot-vscode.vscode-arduino
-code --install-extension ms-python.python
-code --install-extension eamodio.gitlens
-echo 'done!'
-```
-**close the command line
+    * paste this into the command line:
+    ```
+    code --install-extension vsciot-vscode.vscode-arduino
+    code --install-extension ms-python.python
+    code --install-extension eamodio.gitlens
+    echo 'done!'
+    ```
+    * close the command line
 
 ## Configuring git authentication
 There's two ways to authenticate; one is via user and password, which requires leaving
@@ -55,7 +55,7 @@ key method.
 
 ## Cloning and opening a project
 * open vscode
-* hit `Ctrl+Shift+P`
+* hit `Ctrl + Shift + P`
 * type `clone` and hit `Enter`
 * pick `Clone from GitHub`
     * for the first time you're doing this: a window will appear saying that the extension
