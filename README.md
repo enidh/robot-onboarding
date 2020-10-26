@@ -70,7 +70,7 @@ projects there
 * happy coding!
 * vscode does not autosave so be sure to save your changes on each file.
 
-## Committing and pushing a project
+## Committing and pushing changes to a project
 * go to the `Source Control` view (third button on the vertcal bar on the
 left)
 * **review** your changes (really, review them, see the section on Commit
@@ -78,3 +78,4 @@ Hygiene for details)
 * if everything looks okay, hover over `v Changes` and hit the `+` button
 to stage all changes
 * hit the `✓` button on top next to `Source Control` to commit your changes
+* hit `Ctrl + Shift + P`, type `push` and hit enter
