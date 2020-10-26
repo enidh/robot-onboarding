@@ -1,2 +1,61 @@
 # robot-onboarding
 Onboarding docs for the robotics club
+
+## Setting up your development environment - Windows
+
+### Installing Everything
+* Register a github account if you don`t have one already at https://github.com/join
+** ask the club to add your github username to the team
+
+* Get vscode at https://code.visualstudio.com/download
+** install vscode with default options
+
+* Get git at https://git-scm.com/download/
+** install git with default options EXCEPT:
+*** when you reach `Choosing the default editor used by git` change it to 
+an editor of your choice (if you're at all unsure, pick `Use Visual Stodio Code as 
+Git's default editor`)
+
+* Get pyhton 3.9 at https://www.python.org/ftp/python/3.9.0/python-3.9.0-amd64.exe
+*when starting the installation be sure to check the box `Add Python to PATH`, keep
+defaults for everything else
+
+* hit windows key+R, type `cmd` and hit Enter
+**paste this into the command line:
+```
+code --install-extension vsciot-vscode.vscode-arduino
+code --install-extension ms-python.python
+code --install-extension eamodio.gitlens
+echo 'done!'
+```
+**close the command line
+
+## Configuring git authentication
+There's two ways to authenticate; one is via user and password, which requires leaving
+your login credentials stored in plain text in your computer, and another is through
+something called an **SSH key**. It's still a code to identify yourself, but you can
+revoke it in your github account any time. Try setting up authentication via SSH key
+first; got for the user + pass method only if you're having too much trouble the SSH
+key method.
+
+### Via SSH key
+
+### Via user and password
+
+
+## Cloning and opening a project
+* open vscode
+* hit `Ctrl+Shift+P`
+* type `clone` and hit `Enter`
+* pick `Clone from GitHub`
+** for the first time you're doing this: a window will appear saying that the extension
+Github wants to sign in. Click `Allow`
+to open a new browser tab
+** follow the steps in the browser. Allow the page to open vscode when prompted.
+** in vscode, allow the extension to open the URI when prompted.
+* type in the repository name, e.g. `enidh/robot-onboarding` and hit `Enter`
+* choose a folder for the project. e.g. you can create a `git` folder and keep all 
+projects there
+* choose to open the cloned repository when prompted
+* happy coding!
+* vscode does not autosave so be sure to save your changes on each file.
