@@ -65,5 +65,7 @@ left)
 Hygiene for details)
 * if everything looks okay, hover over `v Changes` and hit the `+` button
 to stage all changes
-* hit the `✓` button on top next to `Source Control` to commit your changes
+* hit the `✓` button on top next to `Source Control` to commit your
+changes. Write your commit message when prompted - make it *concise* and
+*descriptive*
 * hit `Ctrl + Shift + P`, type `push` and hit enter
