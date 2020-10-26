@@ -40,18 +40,6 @@ defaults for everything else
     ```
     * close the command line
 
-## Configuring git authentication
-There's two ways to authenticate; one is via user and password, which requires leaving
-your login credentials stored in plain text in your computer, and another is through
-something called an **SSH key**. It's still a code to identify yourself, but you can
-revoke it in your github account any time. Try setting up authentication via SSH key
-first; got for the user + pass method only if you're having too much trouble the SSH
-key method.
-
-### Via SSH key
-
-### Via user and password
-
 
 ## Cloning and opening a project
 * open vscode
