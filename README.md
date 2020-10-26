@@ -15,9 +15,19 @@ Onboarding docs for the robotics club
 *** when you reach `Choosing the default editor used by git` change it to 
 an editor of your choice (if you're at all unsure, pick `Use Visual Stodio Code as 
 Git's default editor`)
+* hit windows key+R, type `cmd` and hit Enter
+**paste this into the command line, replacing with your name, and hit `Enter`:
+```
+git config --global user.name "Joana Santos"
+```
+**paste this into the command line, replacing with your email, and hit `Enter`:
+```
+git config --global user.email "joanasantos@mail.com"
+```
+**close the command line
 
 * Get pyhton 3.9 at https://www.python.org/ftp/python/3.9.0/python-3.9.0-amd64.exe
-*when starting the installation be sure to check the box `Add Python to PATH`, keep
+**when starting the installation be sure to check the box `Add Python to PATH`, keep
 defaults for everything else
 
 * hit windows key+R, type `cmd` and hit Enter
@@ -59,3 +69,12 @@ projects there
 * choose to open the cloned repository when prompted
 * happy coding!
 * vscode does not autosave so be sure to save your changes on each file.
+
+## Committing and pushing a project
+* go to the `Source Control` view (third button on the vertcal bar on the
+left)
+* **review** your changes (really, review them, see the section on Commit
+Hygiene for details)
+* if everything looks okay, hover over `v Changes` and hit the `+` button
+to stage all changes
+* hit the `✓` button on top next to `Source Control` to commit your changes
