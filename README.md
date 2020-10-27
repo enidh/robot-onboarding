@@ -27,7 +27,7 @@ Git's default editor`)
     * close the command line
 
 * Get pyhton 3.9 at https://www.python.org/ftp/python/3.9.0/python-3.9.0-amd64.exe
-**when starting the installation be sure to check the box `Add Python to PATH`, keep
+    * when starting the installation be sure to check the box `Add Python to PATH`, keep
 defaults for everything else
 
 * hit windows key+R, type `cmd` and hit Enter
@@ -52,8 +52,7 @@ to open a new browser tab
     * follow the steps in the browser. Allow the page to open vscode when prompted.
     * in vscode, allow the extension to open the URI when prompted.
 * type in the repository name, e.g. `enidh/robot-onboarding` and hit `Enter`
-* choose a folder for the project. e.g. you can create a `git` folder and keep all 
-projects there
+* choose a folder for the project. e.g. you can create a `git` folder and keep all projects there
 * choose to open the cloned repository when prompted
 * happy coding!
 * vscode does not autosave so be sure to save your changes on each file.
