@@ -15,7 +15,7 @@ Onboarding docs for the robotics club
     * when you reach `Choosing the default editor used by git` change it to 
 an editor of your choice (if you're at all unsure, pick `Use Visual Stodio Code as 
 Git's default editor`)
-* hit `windows key + R`, type `cmd` and hit Enter
+* hit `windows key + R`, type `cmd` and hit `Enter`
     * paste this into the command line, replacing with your name, and hit `Enter`:
         ```
         git config --global user.name "Joana Santos"
@@ -30,7 +30,7 @@ Git's default editor`)
     * when starting the installation be sure to check the box `Add Python to PATH`, keep
 defaults for everything else
 
-* hit windows key+R, type `cmd` and hit Enter
+* hit windows key+R, type `cmd` and hit `Enter`
     * paste this into the command line:
     ```
     code --install-extension vsciot-vscode.vscode-arduino
@@ -59,26 +59,42 @@ a `git` folder in your `Documents` and keep all projects there, for simplicity a
 * happy coding!
 * vscode does not autosave so be sure to save your changes on each file.
 
-## Committing and pushing changes to a project
+## Using Version Control
+[**Committing**](#committing) puts your changes in git _locally_ - only you will have them in your local git repository. 
+
+[**Pushing**](#pushing) puts your changes in git _remotely_ - everyone else will get your changes 
+_when they pull from the remote repo_.
+
+[**Pulling**](#pulling) gets other people's changes from the remote repo to your local one.
+
+
+
+In simple terms, to make your changes available to everyone you need to both _commit_ and _push_, one after the other.
+
+### Committing
 * don't forget to save!
 * go to the `Source Control` view (third button on the vertcal bar on the
 left)
 * **review** your changes (really, do actually review them, 
 [see the basics on commit hygiene](#commit-hygiene))
-* if everything looks okay, hover over `v Changes` to show additional buttons
- and hit the `+` button next to it to stage all changes
-    * do not confuse that with the `+` buttons next to each file - hitting
-    one of those will only stage that particular file.
-* hit the `✓` button on top next to `Source Control` to commit your
-changes. Write your commit message when prompted - make it *concise* and
+* if everything looks okay, hit `Ctrl + Shift + P`, type `stage all changes` and hit `Enter`
+* hit `Ctrl + Shift + P`, type `commit` and hit `Enter` to commit your changes. Write your commit message when prompted - make it *concise* and
 *descriptive*
-* hit `Ctrl + Shift + P`, type `push` and hit enter
+
+### Pushing
+* after committing, hit `Ctrl + Shift + P`, type `push` and hit `Enter`
     * for the first time you're doing this: a window will appear asking you
     to sign in to GitHub. click the button
     * follow the steps in the browser.
-* after committing, you can also hit the `🗘` button in the blue bar at the
+
+Or:
+
+* after committing, hit the `🗘` button in the blue bar at the
 bottom instead of pushing the way described above - this will push any 
 commits **and** pull new changes from remote.
+
+### Pulling
+
 
 ## Commit hygiene
 TODO
