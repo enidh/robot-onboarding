@@ -73,9 +73,12 @@ left)
 changes. Write your commit message when prompted - make it *concise* and
 *descriptive*
 * hit `Ctrl + Shift + P`, type `push` and hit enter
-* you can also hit the `🗘` button in the blue bar at the bottom instead
-of pushing the way described above - this will push any commits **and**
-pull new  changes from remote.
+    * for the first time you're doing this: a window will appear asking you
+    to sign in to GitHub. click the button
+    * follow the steps in the browser.
+* after committing, you can also hit the `🗘` button in the blue bar at the
+bottom instead of pushing the way described above - this will push any 
+commits **and** pull new changes from remote.
 
 ## Commit hygiene
 TODO
