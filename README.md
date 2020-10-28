@@ -41,7 +41,7 @@ defaults for everything else
     * close the command line
 
 
-## Cloning and opening a project
+### Cloning and opening a project
 * open vscode
 * hit `Ctrl + Shift + P`
 * type `clone` and hit `Enter`
@@ -59,14 +59,13 @@ a `git` folder in your `Documents` and keep all projects there, for simplicity a
 * happy coding!
 * vscode does not autosave so be sure to save your changes on each file.
 
-## Using Version Control
+### Using Version Control
 [**Committing**](#committing) puts your changes in git _locally_ - only you will have them in your local git repository. 
 
 [**Pushing**](#pushing) puts your changes in git _remotely_ - everyone else will get your changes 
 _when they pull from the remote repo_.
 
 [**Pulling**](#pulling) gets other people's changes from the remote repo to your local one.
-
 
 
 In simple terms, to make your changes available to everyone you need to both _commit_ and _push_, one after the other.
@@ -94,11 +93,12 @@ bottom instead of pushing the way described above - this will push any
 commits **and** pull new changes from remote.
 
 ### Pulling
+* Hit `Ctrl + Shift + P`, type `pull` and hit `Enter`
+* if you and someone else have been editing the same file, you may need to [tell git how to join both changes](#merge-conflicts).
 
-
-## Commit hygiene
+### Merge conflicts
 TODO
 
-## Merge conflicts
+### Commit hygiene
 TODO
 
